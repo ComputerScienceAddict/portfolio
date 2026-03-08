@@ -21,6 +21,7 @@ function App() {
         <nav className="header-nav">
           <a href="#projects">Projects</a>
           <a href="#pricing">Pricing</a>
+          <a href="#contact">Contact</a>
         </nav>
       </header>
       <div className="background">
@@ -143,6 +144,18 @@ function App() {
               </div>
             </ScrollReveal>
           </div>
+        </section>
+
+        <section id="contact" className="contact">
+          <ScrollReveal>
+            <h2>Contact</h2>
+          </ScrollReveal>
+          <ScrollReveal delay={50}>
+            <div className="contact-links">
+              <a href="tel:+16502489732">(650) 248-9732</a>
+              <a href="mailto:jjuar090@ucr.edu">jjuar090@ucr.edu</a>
+            </div>
+          </ScrollReveal>
         </section>
       </main>
     </div>
