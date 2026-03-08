@@ -14,7 +14,10 @@ function App() {
       </div>
       <div className="noise-overlay" aria-hidden />
       <header className="header">
-        <a href="#" className="header-logo">Joshua Juarez</a>
+        <a href="#" className="header-logo">
+        <img src="/logo.png" alt="" className="header-logo-icon" />
+        Joshua Juarez
+      </a>
         <nav className="header-nav">
           <a href="#projects">Projects</a>
           <a href="#pricing">Pricing</a>

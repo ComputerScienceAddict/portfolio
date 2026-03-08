@@ -113,12 +113,22 @@
 }
 
 .header-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   font-family: 'Syne', sans-serif;
   font-weight: 700;
   font-size: 1.25rem;
   color: #fff;
   text-decoration: none;
   letter-spacing: -0.02em;
+}
+
+.header-logo-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  display: block;
 }
 
 .header-nav {
